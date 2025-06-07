@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>colspan-rowspan-table</title>
+    <style>
+        table {
+            width: 100%;
+        }
+
+        td {
+            width: 300px;
+            height: 200px;
+            border: solid;
+            border-color: black;
+            border-width: 2px;
+        }
+
+        .color-one {
+            background-color: #086a64;
+        }
+
+        .color-two {
+            background-color: #7AE2CF;
+        }
+
+        .color-three {
+            background-color: #129990;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <!--Row-one-->
+        <tr>
+            <td colspan="5" class="color-one">1</td>
+        </tr>
+        <!--Row-two-->
+        <tr>
+            <td rowspan="3" colspan="2" style="width: 30%;" class="color-two">6</td>
+            <td colspan="3" class="color-three">8</td>
+        </tr>
+        <!--Row-three-->
+        <tr>
+            <td colspan="3" class="color-three">11</td>
+        </tr>
+        <!--Row-Four-->
+        <tr>
+            <td colspan="3" class="color-one">16</td>
+        </tr>
+    </table>
+</body>
+
+</html>
