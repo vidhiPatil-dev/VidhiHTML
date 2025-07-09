@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>flex-one</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-cointainer {
+            width: 90%;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            background-color:#F4EBD3;
+        }
+
+        .cards-section {
+            width: 50%;
+            height: 100%;
+         
+        }
+
+        .card {
+            width: 40%;
+            height: 50%;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px white;
+            gap: 5px;
+            background-color:white;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        .image-box{
+            width: 100%;
+            height: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-image {
+            width: 150px;
+            border-radius: 100%;
+            text-align: center;
+            border-style: solid;
+            border-color: green;
+            border-width: 2px;
+        }
+
+        .card-title {
+            font-size: 40px;
+            font-weight: 80;
+            color: rgb(0, 0, 0);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: 60px;
+            color: rgb(6, 6, 6);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .span {
+            font-size: 25px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-cointainer">
+
+
+        <div class="card">
+         <div class="image-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHnOyB2Wqx7c5F7A6vKSBkbpQ0u4VqOmuV3g&s"
+            class=" card-image" />
+         </div>
+            <br>
+            <span class="card-title">John Doe</span>
+            </br>
+            <span class="title">Web Developer</span>
+            </br>
+            <span class="span">John is a passionate web developer with over 5 years of experience in building
+                user-friendly website.</span>
+        </div>
+
+        <div class="card">
+           <div class="image-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNtLnYEqvhKKHET_JzfYOv5hZNV1cngGuY_A&s"
+            class=" card-image" />
+           </div>
+            <br>
+            <span class="card-title">Jane Smith</span>
+            </br>
+            <span class="title">Graphic Designer</span>
+            <br>
+            <span class="span">Jane is a creative graphic designer specalising in building and visual
+                studying.</span>
+        </div>
+        <div class="card">
+            <div class="image-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcJMe5H8pxowhpFDDFqCdyC2vFP3HhdC4g1ZkFXFCSj9IbngIIb_8zadQzfad-aZvOkSI&usqp=CAU"
+                class=" card-image" />
+                </div>
+            <br>
+            <span class="card-title">Mike Johnson</span>
+            </br>
+            <span class="title">Project Manager</span>
+            <br>
+            <span class="span">Mike Johnson is a skilled project manager with a driving projects on time and within
+                budgets. </span>
+        </div>
+        <div class="card">
+            <div class="image-box">
+                <img src="https://i.pinimg.com/564x/05/5a/91/055a91979264664a1ee12b9453610d82.jpg" class="card-image" />
+            </div>
+            <br>
+            <span class="card-title">Sarah Lee</span>
+            </br>
+            <span class="title">Ul/UX Designer</span>
+            <br>
+            <span class="span">Sarah is a Ul/UX designer founded on creating attractive and engaging user
+                projects.</span>
+        </div>
+
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
