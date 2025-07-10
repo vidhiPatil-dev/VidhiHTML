@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flex layout</title>
+    <style>
+        body {
+            width:100% ;
+            height:100px ;
+            margin:10px;
+            padding: 0;
+        }
+
+        .main-cointainer {
+            width: 100%;
+            height: 100%;
+        }
+        .title {
+            font-size: 60px;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1 {
+            width: 100%;
+            height: 100%;
+        }
+
+        span {
+            font-size: 10px;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .description {
+            font-size: 30px;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .flex-cointainer {
+            width: 100%;
+            height:40%;
+            display: flex;
+            flex-direction:row;
+            justify-content: space-evenly;
+            margin-top: 30px;
+        }
+
+        .flex-item {
+            width: 30%;
+            height: 400%;
+            text-align: center;
+            font-size: 40px;
+            background-color:#FFAAAA;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border-radius: 10px;
+        }
+        .color-one{
+         background-color:rgba(0, 0, 255, 0.86) ;
+        }
+        .color-two{
+            background-color:rgb(9, 245, 9) ;
+        }
+        .color-three{
+            background-color: rgb(239, 16, 16);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-cointainer">
+        <span class="title">Three Equal-Width box Layout.</span>
+        <br/>
+        <span class="description">This Example shows Three Box side by side by using CSS flexbox.</span>
+        <div class="flex-cointainer">
+            <div class="flex-item color-one">Box 1</div>
+            <div class="flex-item color-two">Box 2</div>
+            <div class="flex-item color-three">Box 3</div>
+        </div>
+    </div>
+</body>
+
+</html>

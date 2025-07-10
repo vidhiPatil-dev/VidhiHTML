@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product-Gallery-one</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-cointainer {
+            width: 90%;
+            height: 100%;
+            text-align: center;
+        }
+
+        .title {
+            font-weight: 700;
+            font-size: 80px;
+            text-shadow: 2px 3px rgb(38, 118, 162);
+            color: black;
+            font-family: cursive;
+        }
+
+        .cards-section {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+
+        .card {
+            width: 20%;
+            height: 55%;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px 2px lightgray;
+        }
+
+        .card-image {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        .card-title {
+            font-size: 40px;
+            font-weight: 700;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .card-price {
+            font-size: 30px;
+            font-weight: 700;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        button {
+            width: 80%;
+            padding: 10px;
+            font-size: 30px;
+            color:orange;
+            border-style: solid;
+            border-width: 2px;
+            border-color:orange;
+            border-radius: 10px;
+            background-color: transparent;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color:orange;
+            color: white;
+            border-color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-cointainer">
+        <span class="title">Product Gallery</span>
+        <div class="cards-section">
+            <div class="card">
+                <img src="https://image01-in.oneplus.net/media/202504/29/f7dd3061e62632c0f49d1f9c28ccc214.png?x-amz-process=image/format,webp/quality,Q_80"
+                    class=" card-image" />
+                <span class="card-title">Product 1</span>
+                <span class="card-price">$4000</span>
+                <br />
+                <button>Add to Cart</button>
+            </div>
+            <br>
+            <div class="card">
+                <img src="https://images-cdn.ubuy.co.in/633fd9ec9f50f57b704f1be2-hilitand-s22-ultra-unlocked-smartphone.jpg"
+                    class=" card-image" />
+                <span class="card-title">Product 2</span>
+                <span class="card-price">$6000</span>
+                <br />
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBXvCnSTfMOjdQNMKLY6InPCMO03DigqkETw&s"
+                    class=" card-image" />
+                <span class="card-title">Product 3</span>
+                <span class="card-price">$9000</span>
+                <br />
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="https://image01-in.oneplus.net/media/202406/19/ec64eb41a8e787a798be1b71c13a51bb.png?x-amz-process=image/format,webp/quality,Q_80"
+                    class=" card-image" />
+                <span class="card-title">Product 4</span>
+                <span class="card-price">$7900</span>
+                <br />
+                <button>Add to Cart</button>
+            </div>
+            </br>
+        </br>
+            <div class="card">
+                <img src="https://images-cdn.ubuy.co.in/67e803fa977a7cc7e707c646-heyxfome-h2-2025-new-mobile-phone-sim.jpg"
+                    class=" card-image" />
+                <span class="card-title">Product 5</span>
+                <span class="card-price">$8890</span>
+                <br />
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="https://www.sathya.store/img/product/oua46zLS4sa65sEd.webp"
+                    class=" card-image" />
+                <span class="card-title">Product 6</span>
+                <span class="card-price">$999</span>
+                <br />
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="https://s3.ap-south-1.amazonaws.com/www.cimg.in/images/2022/09/22/44/_16638706071_large.jpeg"
+                    class=" card-image" />
+                <span class="card-title">Product 7</span>
+                <span class="card-price">$9990</span>
+                <br />
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCWQ69tS4heOvr05djljvtjcUcYlryMRqfFFeF8bhXa0R7VlbYH167E-a7h4XXJADaX6M&usqp=CAU"
+                    class=" card-image" />
+                <span class="card-title">Product 8</span>
+                <span class="card-price">$100000</span>
+            </br>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
