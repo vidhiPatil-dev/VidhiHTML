@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rowspan-two</title>
+        <style>
+            table{
+                width: 100%;
+                border:  solid;
+                border-collapse:  collapse;
+            }
+            
+            td{
+                width: 100px;
+                height:300px;
+                border:solid;
+                border-color: black;
+                border-width:2px;
+            }
+            .one{
+                background-color:#FFDCDC ;
+            }
+            .two{
+                background-color:#FFF2EB ;
+            }
+            .three{
+                background-color:#FFE8CD;
+            }
+            .four{
+                background-color:#FFE99A;
+            }
+            .five{
+                background-color:#FFAAAA;
+            }
+            .six{
+                background-color:#BBFBFF;
+            }
+            .seven{
+                background-color:#8DD8FF;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td class="one" style="height:60px ;"></td>
+                <td class="two" style="height:60px ;"></td>
+                <td class="three"style="height:60px ;"></td>
+                <td class="four"style="height:60px ;"></td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="five"></td>
+                <td colspan="3" class="six"></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="seven"></td>
+            </tr>
+        </table>
+    </body>
+</html>

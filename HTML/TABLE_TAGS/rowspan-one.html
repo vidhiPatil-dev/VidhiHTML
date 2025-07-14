@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rowspan in html</title>
+        <style>
+            table{
+                width: 100%;
+                border: black solid;
+                border-collapse:  collapse;
+            }
+            td {
+            width: 300px;
+            height: 200px;
+            border: black solid;
+            border-collapse:  collapse;
+            border-width: 2px;
+        }
+        .one{
+            background-color:#BBFBFF;
+        }
+           .two {
+            background-color:#DDF6D2;
+           }
+           .three{
+            background-color:#129990;
+           }
+           .four{
+            background-color:#9B7EBD;
+           }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td class="one"></td>
+                <td colspan="2" class="two"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="three"></td>
+                <td class="four" ></td>
+               
+            </tr>
+        </table>
+    </body>
+</html>

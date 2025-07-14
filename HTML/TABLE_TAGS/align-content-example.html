@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>align content</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-cointainer {
+            width: 100%;
+            height: 100%;
+            background-color: chocolate;
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+
+        .box-one {
+            width: 200px;
+            height: 20%;
+            background-color: #FFEDF3;
+        }
+
+        .box-two {
+            width: 200px;
+            height: 20%;
+            background-color:#FEC5F6;
+        }
+
+        .box-three {
+            width: 200px;
+            height: 20%;
+            background-color:#C4E1E6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-cointainer">
+        <div class="box-one"></div>
+        <div class="box-two"></div>
+        <div class="box-three"></div>
+    </div>
+</body>
+
+</html>
