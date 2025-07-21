@@ -4,24 +4,11 @@
 <head>
     <title>Portfolio</title>
     <style>
-        html {
-            scroll-padding-top: 60px;
-            scroll-behavior: smooth;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
-            width: 100vw;
             height: 100vh;
-            padding: 0;
+            width: 100vw;
             margin: 0;
-            scroll-behavior: smooth;
-            overflow-x: hidden;
+            padding: 0%;
         }
 
         .main-container {
@@ -31,7 +18,6 @@
 
         }
 
-        /* Home Section Start */
         .header {
             width: 100%;
             background-color: white;
@@ -70,15 +56,10 @@
             background-color: transparent;
         }
 
-        .nav-bar-home {
+        .navigation {
             width: 100%;
             height: 2%;
 
-        }
-
-        .nav-bar-home:hover {
-            color: #7c5db9;
-            text-decoration-line: underline;
         }
 
         .home-section {
@@ -97,7 +78,7 @@
         .home-section-two {
             width: 30%;
             height: 40%;
-            background-color: #57B4BA;
+            background-color:;
             margin-right: 6%;
             margin-top: 12%;
             margin-left: 10%;
@@ -105,7 +86,7 @@
         }
 
         .hello {
-            color: #EA906C;
+            color: #;
             font-size: 50px;
             margin-left: 110px;
             font-family: cursive;
@@ -122,91 +103,7 @@
             font-family: cursive;
         }
 
-        a {
-            text-decoration: none;
-            color: white;
-        }
-
-        /* Home Section end */
-        /* About Section Start */
-        .maincontainer {
-            width: 100%;
-            height: 100%;
-            background-color: lightgrey;
-        }
-
-        .image-two {
-            width: 100%;
-            height: 50%;
-            margin-left: 15%;
-        }
-
-        .section-1 {
-            border-radius: 100%;
-            height: 100%;
-            display: flex;
-        }
-
-        .sec-one {
-            width: 40%;
-            height: 90%;
-            background-color: white;
-        }
-
-        .sec-two {
-            width: 60%;
-            height: 100%;
-            background-color: white;
-        }
-
-        .about {
-            width: 100%;
-            height: 20%;
-            font-size: 60px;
-            font-family: cursive;
-            font-weight: 700;
-            padding-left: 120px;
-            padding-top: 30px;
-            background-color: white;
-            color: #5DB996;
-            text-align: center;
-        }
-
-        .sec-two-name {
-            text-align: center;
-            margin-right: 20%;
-        }
-
-        .sec-two-main-name {
-            font-size: 40px;
-            color: white;
-            font-weight: 900;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-
-        .sec-two-second-name {
-            font-size: 40px;
-            color: #b98b5d;
-            font-weight: 900;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-
-        .sec-two-info {
-            text-align: center;
-            font-size: 30px;
-            color: #b98b5d;
-        }
-
-        .h-one {
-            text-align: center;
-            color: white;
-            font-size: 35px;
-        }
-
-        .span-one {
-            color: #EA906C;
-            font-size: 35px;
-        }
+       
     </style>
 </head>
 
@@ -216,22 +113,22 @@
         <div class="header">
             <div class="head-one">
                 <div style="margin-top: 20px;" class="portfolio">
-                    <span>Vidhi.</span>
+                    <span>Portfolio.</span>
                 </div>
             </div>
             <!-- This is head Navigation -->
             <div class="head-two">
                 <div class="home">
-                    <a href="#" class="nav-bar-home"> Home </a>
+                    <a href="#home" class="navigation"> Home </a>
                 </div>
                 <div class="home">
-                    <a href="#About" class="nav-bar-home">About</a>
+                    <a href="#About" class="navigation">About</a>
                 </div>
                 <div class="home">
-                    <a href="#Project" class="nav-bar-home">Project</a>
+                    <a href="#Project" class="navigation">Project</a>
                 </div>
                 <div class="home">
-                    <a href="#Contact" class="nav-bar-home">Contact</a>
+                    <a href="#Contact" class="navigation">Contact</a>
                 </div>
             </div>
         </div>
@@ -244,38 +141,13 @@
             <div class="home-section-two">
                 <div class="image-1">
                     <img src="https://thumbs.dreamstime.com/b/cute-cartoon-girl-long-red-hair-working-her-computer-her-desk-her-home-office-cute-cartoon-girl-working-335451694.jpg"
-                        width="100%" height="100%">
+                        width="100%" height="400px">
                 </div>
             </div>
         </div>
         <!-- Home Section End -->
 
-        <!-- About Section Start -->
-        <div class="about" id="About">
-            About Me
-        </div>
-        <div class="maincontainer">
-            <div class="section-1">
-                <div class="sec-one">
-                    <div class="image-2">
-                        <img src="https://images.unsplash.com/photo-1530092285049-1c42085fd395?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDIwfHx8ZW58MHx8fHx8"
-                            width="100%" height="90%">
-                    </div>
-                </div>
-                <div class="sec-two">
-                    <div class="sec-two-name">
-                        <span class="sec-two-main-name">Hi There!</span>
-                        <span class="sec-two-second-name">I am Vidhi</span>
-                    </div>
-                    <br><br>
-                    <h1 class="h-one"> I am a <span class="span-one">Full Stack Developer</span> </h1>
-                    <br><br>
-                    <div class="sec-two-info">
-                        I have experience working with technologies <br> like HTML and CSS.
-                        I enjoy building complete <br> web applications and continuously learning <br> new technologies
-                        to improve
-                        my skills.
-                    </div>
+        
                 </div>
             </div>
         </div>
