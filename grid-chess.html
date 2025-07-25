@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>grid-chess</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cointainer {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+           
+        }
+
+        .box-1 {
+            grid-row: 1/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-2 {
+            grid-row: 1/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-3 {
+            grid-row: 1/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-4 {
+            grid-row: 1/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-5 {
+            grid-row: 1/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-6 {
+            grid-row: 1/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-7 {
+            grid-row: 1/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-8 {
+            grid-row: 1/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+
+        .box-9 {
+            grid-row: 2/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-10 {
+            grid-row: 2/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-11 {
+            grid-row: 2/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-12 {
+            grid-row: 2/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-13 {
+            grid-row: 2/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-14 {
+            grid-row: 2/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-15 {
+            grid-row: 2/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-16 {
+            grid-row: 2/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+
+        .box-17{
+            grid-row: 3/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-18 {
+            grid-row: 3/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-19{
+            grid-row: 3/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-20{
+            grid-row: 3/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-21 {
+            grid-row: 3/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-22 {
+            grid-row: 3/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-23 {
+            grid-row:3/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-24 {
+            grid-row: 3/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+
+        .box-25 {
+            grid-row: 4/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-26 {
+            grid-row: 4/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-27 {
+            grid-row: 4/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-28 {
+            grid-row: 4/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-29 {
+            grid-row: 4/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-30 {
+            grid-row: 4/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-31 {
+            grid-row: 4/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-32 {
+            grid-row: 4/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+
+
+        .box-33{
+            grid-row: 5/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+        .box-34{
+            grid-row: 5/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+        .box-35{
+            grid-row:5/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+        .box-36{
+            grid-row: 5/span 1;
+            background-color: rgb(0, 0, 0);
+        } .box-37{
+            grid-row: 5/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+        .box-38{
+            grid-row: 5/span 1;
+            background-color: rgb(0, 0, 0);
+        } .box-39{
+            grid-row: 5/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+        .box-40{
+            grid-row: 5/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+
+        .box-41 {
+            grid-row: 6/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-42 {
+            grid-row: 6/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-43{
+            grid-row: 6/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-44 {
+            grid-row: 6/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-45 {
+            grid-row:6 /span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-46 {
+            grid-row: 6/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-47 {
+            grid-row: 6/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-48 {
+            grid-row: 6/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+
+        .box-49{
+            grid-row: 7/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+        .box-50{
+            grid-row: 7/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+        .box-51{
+            grid-row:7/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+        .box-52{
+            grid-row: 7/span 1;
+            background-color: rgb(0, 0, 0);
+        } .box-53{
+            grid-row: 7/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+        .box-54{
+            grid-row: 7/span 1;
+            background-color: rgb(0, 0, 0);
+        } .box-55{
+            grid-row: 7/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+        .box-56{
+            grid-row: 7/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+
+
+        .box-57 {
+            grid-row: 8/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-58 {
+            grid-row: 8/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-59{
+            grid-row: 8/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-60 {
+            grid-row: 8/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-61{
+            grid-row:8 /span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-62 {
+            grid-row: 8/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-63 {
+            grid-row: 8/span 1;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box-64 {
+            grid-row: 8/span 1;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cointainer">
+        <!--box-1-->
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+        <div class="box-4"></div>
+        <div class="box-5"></div>
+        <div class="box-6"></div>
+        <div class="box-7"></div>
+        <div class="box-8"></div>
+        <!--box-2-->
+
+        <div class="box-9"></div>
+        <div class="box-10"></div>
+        <div class="box-11"></div>
+        <div class="box-12"></div>
+        <div class="box-13"></div>
+        <div class="box-14"></div>
+        <div class="box-15"></div>
+        <div class="box-16"></div>
+
+        <!--box-3-->
+
+        <div class="box-17"></div>
+        <div class="box-18"></div>
+        <div class="box-19"></div>
+        <div class="box-20"></div>
+        <div class="box-21"></div>
+        <div class="box-22"></div>
+        <div class="box-23"></div>
+        <div class="box-24"></div>
+        <!--box-4-->
+
+        <div class="box-25"></div>
+        <div class="box-26"></div>
+        <div class="box-27"></div>
+        <div class="box-28"></div>
+        <div class="box-29"></div>
+        <div class="box-30"></div>
+        <div class="box-31"></div>
+        <div class="box-32"></div>
+        <!--box-5-->
+        <div class="box-33"></div>
+        <div class="box-34"></div>
+        <div class="box-35"></div>
+        <div class="box-36"></div>
+        <div class="box-37"></div>
+        <div class="box-38"></div>
+        <div class="box-39"></div>
+        <div class="box-40"></div>
+
+        <!--box-6-->
+        <div class="box-41"></div>
+        <div class="box-42"></div>
+        <div class="box-43"></div>
+        <div class="box-44"></div>
+        <div class="box-45"></div>
+        <div class="box-46"></div>
+        <div class="box-47"></div>
+        <div class="box-48"></div>
+        <!--box-7-->
+        <div class="box-49"></div>
+        <div class="box-50"></div>
+        <div class="box-51"></div>
+        <div class="box-52"></div>
+        <div class="box-53"></div>
+        <div class="box-54"></div>
+        <div class="box-55"></div>
+        <div class="box-56"></div>
+        <!--box-8-->
+        <div class="box-57"></div>
+        <div class="box-58"></div>
+        <div class="box-59"></div>
+        <div class="box-60"></div>
+        <div class="box-61"></div>
+        <div class="box-62"></div>
+        <div class="box-63"></div>
+        <div class="box-64"></div>
+
+    </div>
+</body>
+
+</html>
